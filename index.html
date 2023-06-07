@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Noticias</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>NOTICIAS & +</h1>
+
+        <header>
+            <nav>
+                <span class="cat" onclick="buscar('Tecnología')">Tecnología</span>
+                <span class="cat" onclick="buscar('programación')">Programación</span>
+                <span class="cat" onclick="buscar('deportes')">Deportes</span>
+                <span class="cat" onclick="buscar('economía')">Economía</span>
+                <span class="cat" onclick="buscar('educación')">Educación</span>
+                <span class="cat" onclick="buscar('cocina')">Cocina</span>
+            </nav>
+            <div class="busqueda">
+                <input type="text" placeholder="Qué desea buscar" id="busqueda">
+                <button onclick="buscarTema()">Buscar</button>
+            </div>
+        </header>
+
+
+        <div class="container-noticias">
+
+        </div>
+    </div>
+
+    <footer class=" pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="./terminos.html">Terminos y condiciones</a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Sobre nosotros</h2>
+                <p>Somos una organizacion sin fines de lucro con el unico fin de transmitir informacion a la gente. Nosotros en Noticias&Mas tomamos muy enserio la claridad y transparencia, por lo que nuestras fuentes son precisas y veridicas</p>
+                <p>Como persona no juridica la informacion que utilizamos proviene de la IA y fuentes externas.Colocando como premisa la integracion de noticias a nivel mundial.</p>
+            </div>
+            <div class="box-contact">
+                <a href="#">Contactanos</a>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>Copy 2021 <b>Noticias&Mas</b> Todos los derechos reservados</small>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
